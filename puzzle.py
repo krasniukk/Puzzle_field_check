@@ -1,3 +1,8 @@
+
+"""The module checks if a playing field is ready for
+beginning a game.
+"""
+
 def stars_amount_counter(board: list) -> int:
     """Counts amount of stars in the given board.
     >>> stars_amount_counter(["**** ****", "***1 ****", "**  3****", "* 4 1****",\
